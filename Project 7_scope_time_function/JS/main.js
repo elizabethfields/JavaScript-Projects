@@ -13,20 +13,24 @@ function Add_numbers_3() { //local variable
     document.write( 20 + A + "<br>");
 }
 function Add_numbers_4() {
+    var A = 10;
     document.write( A + 100 + "<br>");
 }
 Add_numbers_3();
 Add_numbers_4();
 
-function Add_numbers_3() { //console log
+function Add_numbers_5() { //console log
     var A = 10;
-    console.log(15 + A)
+    console.log(15 + A);
 }
-function Add_numbers_4() {
-    console.log(A + 100);
-}
-Add_numbers_3();
-Add_numbers_4();
+// this is the error function //
+// function Add_numbers_6() { //console log
+ // console.log(A + 100);
+// }
+
+Add_numbers_5();
+// call to error function // Add_numbers_6(); 
+
 
 function get_Date() { // if statement
     if (new Date().getHours() < 18 ) {
