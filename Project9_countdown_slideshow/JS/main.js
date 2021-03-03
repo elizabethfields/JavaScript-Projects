@@ -1,7 +1,7 @@
-function countdown() {
+function countdown() { // countdown function 
     var seconds = document.getElementById("seconds").value;
     
-    function tick () {
+    function tick () { // timer function
         seconds = seconds - 1;
         timer.innerHTML = seconds;
         setTimeout(tick, 1000);
@@ -12,10 +12,10 @@ function countdown() {
 tick();
 }
 
-var slideIndex = 0;
+var slideIndex = 0; // basic slideshow
 showSlides();
 
-function showSlides() {
+function showSlides() { //basic slideshow
   var i;
   var slides = document.getElementsByClassName("mySlides");
   for (i = 0; i < slides.length; i++) {
